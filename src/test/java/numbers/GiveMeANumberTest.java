@@ -11,4 +11,9 @@ class GiveMeANumberTest {
 	void should_be_less_than_5() {
 		assertTrue(giver.get() < 5);
 	}
+
+	@Test
+	void should_actually_be_less_than_3() {
+		assertTrue(giver.get() < 3);
+	}
 }
